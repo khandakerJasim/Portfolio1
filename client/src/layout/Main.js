@@ -9,7 +9,10 @@ import Contact from "../pages/Contact/Contact";
 
 export default function Main() {
   return (
-    <div>
+    <div
+      className="bg-gradient-to-r border border-gray-400 from-gray-800
+    to-[#141E46]    dark:text-white  mx-auto "
+    >
       <Navbar />
       <Outlet />
       <About />
