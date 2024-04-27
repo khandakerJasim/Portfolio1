@@ -21,6 +21,8 @@ export default function Navbar() {
       >
         Header joshim
       </TypeAnimation>
+      <h1>joshim</h1>
+      <p>lorem 10</p>
     </div>
   );
 }
