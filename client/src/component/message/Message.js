@@ -4,7 +4,7 @@ import { FaAngleUp } from "react-icons/fa";
 
 export default function Message() {
   useEffect(() => {
-    Aos.init({ duration: 700, easing: "ease-in-cubic", once: true });
+    Aos.init({ duration: 1000, easing: "ease-in-cubic", once: true });
   });
   return (
     <div
