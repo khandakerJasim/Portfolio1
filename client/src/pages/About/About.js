@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { TypeAnimation } from "react-type-animation";
 import { FaAddressBook } from "react-icons/fa";
+import joshim from "./../../Assets/joshim.jpg";
 
 export default function About() {
   // const [data, setdata] = useState([]);
@@ -20,18 +21,18 @@ export default function About() {
       <div className="md:flex  md:flex-row  flex-row-reverse py-10 items-center justify-between ">
         <div className="p-3">
           <p className="text-3xl font-bold">
-            Hey, <br />
+            Hey, <br /> i am jasim uddin <br />
           </p>
           <TypeAnimation
             className="md:text-5xl text-2xl mt-2 font-extrbold text-[#FA7070]"
             sequence={[
-              "i am web designer",
+              "web designer",
               1000,
-              "i am ui/UX Designer",
+              " ui/UX Designer",
               1000,
-              "i am web developer ",
+              " web developer ",
               1000,
-              "i am App Developer",
+              " App Developer",
               1000,
             ]}
             wrapper="span"
@@ -42,17 +43,22 @@ export default function About() {
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat
             nobis facere incidunt debitis provident neque aspernatur aliquam
           </p>
-          <div className="flex gap-10">
-            <button className=" flex items-center gap-2   bg-gradient-to-r mt-7 from-[#FA7070] to-[#9A4444] text-md font-bold p-2 rounded-full shadow-md hover:bg-gradient-to-l from-[#9A4444] to-[#FA7070] w-[120px] text-center cursor-pointer ">
-              <FaAddressBook className="text-xl rounded-full" />
+          <div className="flex mt-10 gap-10">
+            <button
+              className=" bg-gradient-to-r
+           from-[#FA7070] to-[#9A4444] text-md font-bold p-2 rounded-md shadow-md hover:bg-gradient-to-l
+            from-[#9A4444] to-[#9A4444] cursor-pointer flex items-center gap-1 "
+            >
+              <FaAddressBook />
               Hire me
             </button>
 
             <button
-              className=" flex items-center gap-2   bg-gradient-to-l mt-7
-             from-[#FA7070] to-[#9A4444] text-md font-bold p-2 rounded-full shadow-md hover:bg-gradient-to-r from-[#9A4444] to-[#FA7070]  cursor-pointer w-[120px] "
+              className=" bg-gradient-to-r
+           from-[#FA7070] to-[#9A4444] text-md font-bold p-2 rounded-md shadow-md hover:bg-gradient-to-l
+            from-[#9A4444] to-[#9A4444] cursor-pointer "
             >
-              Let's Talk
+              Contact me
             </button>
           </div>
         </div>
@@ -60,7 +66,7 @@ export default function About() {
           <figure className="object-cover overflow-hidden ">
             <img
               className="md:w-[500px] md:h-[500px] w-full  object-cover bg-transparent rounded-2xl hover:scale-105 duration-300 "
-              src="https://img.freepik.com/premium-psd/man-with-glasses-green-sweater-stands-front-photo-that-says-company_176841-36674.jpg?w=740"
+              src={joshim}
               alt=""
             />
           </figure>
