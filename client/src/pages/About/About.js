@@ -2,6 +2,8 @@ import React, { useEffect, useState } from "react";
 import { TypeAnimation } from "react-type-animation";
 import { FaAddressBook } from "react-icons/fa";
 import joshim from "./../../Assets/joshim.jpg";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 export default function About() {
   // const [data, setdata] = useState([]);
@@ -16,6 +18,10 @@ export default function About() {
   // useEffect(() => {
   //   getdata(url);
   // }, []);
+
+  useEffect(() => {
+    Aos.init({ duration: 2000, easing: "ease-in-cubic", once: true });
+  });
   return (
     <div className="   max-w-[1200px] mx-auto  dark:text-white bg-gradient-to-r from-slate-900 to-slate-700  ">
       <div className="md:flex  md:flex-row   flex-row-reverse py-10 items-center justify-between ">
@@ -45,6 +51,7 @@ export default function About() {
           </p>
           <div className="flex mt-10 gap-10">
             <button
+              data-aos="fade-up"
               className=" bg-gradient-to-r
            from-[#FA7070] to-[#9A4444] text-md font-bold p-2 rounded-md shadow-5xl hover:bg-gradient-to-l
             from-[#9A4444] to-[#9A4444] cursor-pointer flex items-center gap-1 "
@@ -54,7 +61,9 @@ export default function About() {
             </button>
 
             <button
+              data-aos="fade-right"
               className=" bg-gradient-to-r
+              
            from-[#FA7070] to-[#9A4444] text-md font-bold p-2 rounded-md shadow-md hover:bg-gradient-to-l
             from-[#9A4444] to-[#9A4444] cursor-pointer "
             >
