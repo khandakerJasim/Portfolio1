@@ -47,7 +47,7 @@ export default function Navbar() {
           </motion.span>
 
           <ul className=" hidden md:flex gap-3 text-md font-extrabold  ">
-            <Link to="/">
+            <Link to="/Home">
               <li
                 className={`${
                   select === "Home" && "border-b border-red-500 text-red-400  "

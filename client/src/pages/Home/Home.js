@@ -1,8 +1,9 @@
 import React from "react";
-import About from "./../About/About";
+import About from "../About/About";
 import Contact from "../Contact/Contact";
-import Project from "../Project/Project";
+
 import Skill from "../Skill/Skill";
+import Project from "../Project/Project";
 
 export default function Home() {
   return (
