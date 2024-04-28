@@ -5,6 +5,7 @@ import joshim from "./../../Assets/joshim.jpg";
 import { TiArrowForward } from "react-icons/ti";
 import Aos from "aos";
 import "aos/dist/aos.css";
+import { Link } from "react-router-dom";
 
 export default function About() {
   // const [data, setdata] = useState([]);
@@ -37,9 +38,9 @@ export default function About() {
               1000,
               " Ui/UX Designer",
               1000,
-              " Web developer ",
+              "  Web developer ",
               1000,
-              " App Developer",
+              "  App Developer",
               1000,
             ]}
             wrapper="span"
@@ -61,15 +62,17 @@ export default function About() {
               Hire me
             </button>
 
-            <button
-              data-aos="fade-right"
-              className=" bg-gradient-to-r
+            <Link to="/Contact">
+              <button
+                data-aos="fade-right"
+                className=" bg-gradient-to-r
               
-           from-[#FA7070] to-[#9A4444] text-md font-bold p-2 rounded-md shadow-md hover:bg-gradient-to-l
+           from-yellow-500 to-[#9A4444] text-md font-bold p-2 rounded-md shadow-md hover:bg-gradient-to-l
             from-[#9A4444] to-[#9A4444] cursor-pointer "
-            >
-              Contact me
-            </button>
+              >
+                Contact me
+              </button>
+            </Link>
           </div>
         </div>
         <div className="px-2">

@@ -57,12 +57,12 @@ export default function Navbar() {
                 Home
               </li>
             </Link>
-            <Link to="/About">
+            <Link to="/Hero">
               <li
                 className={`${
-                  select === "About" && "border-b border-red-500 text-red-400"
+                  select === "Hero" && "border-b border-red-500 text-red-400"
                 }`}
-                onClick={() => setselect("About")}
+                onClick={() => setselect("Hero")}
               >
                 About
               </li>

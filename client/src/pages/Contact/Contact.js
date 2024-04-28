@@ -43,7 +43,7 @@ export default function Contact() {
     <div className="max-w-[1200px] dark:text-white bg-gradient-to-r from-slate-700 to-slate-600  mx-auto ">
       <div className="py-10">
         <p
-          className="text-2xl font-extrabold uppercase w-[200px] mx-auto text-center text-base-2  bg-transparent  relative
+          className="text-2xl font-extrabold uppercase w-[200px] mx-auto text-center   bg-transparent  relative
          before:content-[''] before:absolute before:block before:w-full before:h-[3px] 
         before:bottom-0 before:left-0 before:bg-red-500
         before:hover:scale-x-100 before:scale-x-0 before:origin-top-middle
