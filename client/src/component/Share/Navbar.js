@@ -43,7 +43,7 @@ export default function Navbar() {
             animate={{ opacity: 1, scale: 1 }}
             className="text-xl font-bold hidden  md:block text-[#FA7070]  "
           >
-            joshim
+            Jasim uddin
           </motion.span>
 
           <ul className=" hidden md:flex gap-3 text-md font-extrabold  ">
