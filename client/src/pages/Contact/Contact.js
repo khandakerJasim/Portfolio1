@@ -56,23 +56,23 @@ export default function Contact() {
             <input
               type="text"
               placeholder="enter your name"
-              className="md:w-[500px] w-full bg-transparent border-b-2  border-gray-400 hover:outline-none focus:outline-none p-2 "
+              className="md:w-[600px] w-full bg-transparent border-b-2  border-gray-400 hover:outline-none focus:outline-none p-2 "
               name="name"
             />
             <input
               type="email"
               name="email"
               placeholder="md.example@gmail.cpm"
-              className="md:w-[500px] w-[300px]  bg-transparent  pt-3 border-b-2 border-gray-400 hover:outline-none focus:outline-none p-2  "
+              className="md:w-[600px] w-[300px]  bg-transparent  pt-3 border-b-2 border-gray-400 hover:outline-none focus:outline-none p-2  "
             />
             <input
               type="phone"
               name="email"
               placeholder=" enter your phone"
-              className="md:w-[500px] w-full bg-transparent  pt-3 border-b-2 border-gray-400 hover:outline-none focus:outline-none p-2  "
+              className="md:w-[600px] w-full bg-transparent  pt-3 border-b-2 border-gray-400 hover:outline-none focus:outline-none p-2  "
             />
             <textarea
-              className="md:w-[500px] w-full bg-transparent h-[100px]  pt-3 border-b-2 border-gray-400 hover:outline-none focus:outline-none p-2  "
+              className="md:w-[600px]w-full bg-transparent h-[100px]  pt-3 border-b-2 border-gray-400 hover:outline-none focus:outline-none p-2  "
               name="message"
               id=""
               placeholder=" your  message"

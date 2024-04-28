@@ -17,9 +17,9 @@ export default function About() {
   //   getdata(url);
   // }, []);
   return (
-    <div className="   max-w-[1200px] mx-auto  ">
-      <div className="md:flex  md:flex-row dark:text-white bg-gradient-to-r from-slate-900 to-slate-700  flex-row-reverse py-10 items-center justify-between ">
-        <div className="p-3">
+    <div className="   max-w-[1200px] mx-auto  dark:text-white bg-gradient-to-r from-slate-900 to-slate-700  ">
+      <div className="md:flex  md:flex-row   flex-row-reverse py-10 items-center justify-between ">
+        <div className="p-3 flex flex-col justify-center mx-auto">
           <p className="text-3xl font-bold">
             Hey, <br /> i am jasim uddin <br />
           </p>
