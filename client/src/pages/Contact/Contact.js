@@ -40,9 +40,10 @@ export default function Contact() {
   // };
 
   return (
-    <div className="max-w-[1200px] dark:text-white bg-gradient-to-r from-slate-700 to-slate-600  mx-auto ">
+    <div className="max-w-[1200px]  dark:text-white bg-gradient-to-r from-slate-900 to-slate-700  mx-auto ">
       <div className="py-10">
         <p
+          data-aos="fade-right"
           className="text-2xl font-extrabold uppercase w-[200px] mx-auto text-center   bg-transparent  relative
          before:content-[''] before:absolute before:block before:w-full before:h-[3px] 
         before:bottom-0 before:left-0 before:bg-red-500

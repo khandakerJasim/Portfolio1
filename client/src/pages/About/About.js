@@ -29,7 +29,8 @@ export default function About() {
       <div className="md:flex  md:flex-row   flex-row-reverse py-10 items-center justify-between ">
         <div className="p-3 flex flex-col justify-center mx-auto">
           <p className="text-3xl font-bold">
-            Hey, <br /> i am jasim uddin <br />
+            Hey, <br />{" "}
+            <span className="text-yellow-500"> i am jasim uddin</span> <br />
           </p>
           <TypeAnimation
             className="md:text-5xl text-2xl mt-2 font-extrbold text-[#FA7070]"

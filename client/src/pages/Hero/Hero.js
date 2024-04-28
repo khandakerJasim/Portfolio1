@@ -7,7 +7,7 @@ export default function Hero() {
     <div className="max-w-[1200px] mx-auto bg-gradient-to-r from-slate-700 to-slate-900 text-white ">
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 py-7 ">
         <div className="grid justify-center">
-          <figure className="bg-[#F16C6C] rounded-full shadow-md overflow-hidden ">
+          <figure className="bg-[#F16C6C] hover:bg-yellow-500 rounded-full shadow-md overflow-hidden ">
             <img
               src={joshim}
               className="h-[350px] w-[350px] rounded-full object-cover p-2 hover:scale-125 duration-500 "
