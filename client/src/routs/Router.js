@@ -6,13 +6,14 @@ import Skill from "../pages/Skill/Skill";
 import Contact from "../pages/Contact/Contact";
 import Project from "../pages/Project/Project";
 import Home from "./../pages/Home/Home";
+import Message from "../component/message/Message";
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <Main />,
     children: [
-      { path: "/Home", element: <Home /> },
+      { path: "/", element: <Home /> },
       {
         path: "/About",
         element: <About />,
@@ -28,6 +29,10 @@ const router = createBrowserRouter([
       {
         path: "/Contact",
         element: <Contact />,
+      },
+      {
+        path: "/Message",
+        element: <Message />,
       },
     ],
   },

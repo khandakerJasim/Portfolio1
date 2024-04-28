@@ -1,7 +1,8 @@
 import React, { useEffect, useState } from "react";
 import { TypeAnimation } from "react-type-animation";
-import { FaAddressBook } from "react-icons/fa";
+//import { FaAddressBook } from "react-icons/fa";
 import joshim from "./../../Assets/joshim.jpg";
+import { TiArrowForward } from "react-icons/ti";
 import Aos from "aos";
 import "aos/dist/aos.css";
 
@@ -32,11 +33,11 @@ export default function About() {
           <TypeAnimation
             className="md:text-5xl text-2xl mt-2 font-extrbold text-[#FA7070]"
             sequence={[
-              "web designer",
+              "Web designer",
               1000,
-              " ui/UX Designer",
+              " Ui/UX Designer",
               1000,
-              " web developer ",
+              " Web developer ",
               1000,
               " App Developer",
               1000,
@@ -56,7 +57,7 @@ export default function About() {
            from-[#FA7070] to-[#9A4444] text-md font-bold p-2 rounded-md shadow-5xl hover:bg-gradient-to-l
             from-[#9A4444] to-[#9A4444] cursor-pointer flex items-center gap-1 "
             >
-              <FaAddressBook className="text-2xl rounded-full" />
+              <TiArrowForward className="text-2xl rounded-full" />
               Hire me
             </button>
 
