@@ -18,7 +18,7 @@ export default function About() {
   // }, []);
   return (
     <div className="   max-w-[1200px] mx-auto  ">
-      <div className="md:flex  md:flex-row  flex-row-reverse py-10 items-center justify-between ">
+      <div className="md:flex  md:flex-row dark:text-white bg-gradient-to-r from-slate-900 to-slate-700  flex-row-reverse py-10 items-center justify-between ">
         <div className="p-3">
           <p className="text-3xl font-bold">
             Hey, <br /> i am jasim uddin <br />
@@ -46,10 +46,10 @@ export default function About() {
           <div className="flex mt-10 gap-10">
             <button
               className=" bg-gradient-to-r
-           from-[#FA7070] to-[#9A4444] text-md font-bold p-2 rounded-md shadow-md hover:bg-gradient-to-l
+           from-[#FA7070] to-[#9A4444] text-md font-bold p-2 rounded-md shadow-5xl hover:bg-gradient-to-l
             from-[#9A4444] to-[#9A4444] cursor-pointer flex items-center gap-1 "
             >
-              <FaAddressBook />
+              <FaAddressBook className="text-2xl rounded-full" />
               Hire me
             </button>
 
@@ -72,8 +72,6 @@ export default function About() {
           </figure>
         </div>
       </div>
-      <div>joshim</div>
-      <div>uddin</div>
     </div>
   );
 }

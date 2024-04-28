@@ -40,7 +40,7 @@ export default function Contact() {
   // };
 
   return (
-    <div className="max-w-[1200px] bg-gray-700 mx-auto ">
+    <div className="max-w-[1200px] dark:text-white bg-gradient-to-r from-slate-900 to-slate-700  mx-auto ">
       <div className="py-10">
         <p
           className="text-2xl font-extrabold uppercase w-[200px] mx-auto text-center text-base-2  bg-transparent  relative

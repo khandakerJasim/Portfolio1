@@ -28,5 +28,9 @@ export default function Project() {
   //   console.log(res);
   //   console.log("registered successfull");
   // };
-  return <h1>joshim</h1>;
+  return (
+    <div className="max-w-[1200px] mx-auto ">
+      <h1>joshim uddin</h1>
+    </div>
+  );
 }

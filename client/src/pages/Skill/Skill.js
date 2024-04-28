@@ -24,5 +24,9 @@ export default function Skill() {
       name: "Node js",
     },
   ];
-  return <div>joshim</div>;
+  return (
+    <div className="max-w-[1200px] mx-auto ">
+      <h1>joshim uddin </h1>
+    </div>
+  );
 }

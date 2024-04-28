@@ -3,7 +3,7 @@ import React from "react";
 
 export default function Footer() {
   return (
-    <div>
+    <div className="max-w-[1200px] mx-auto ">
       <h1>footer</h1>
     </div>
   );

@@ -5,7 +5,7 @@ import Footer from "../component/Share/Footer";
 
 export default function Main() {
   return (
-    <div className="bg-gradient-to-r from-[#141E46] to-[#030637] dark:text-white ">
+    <div>
       <Navbar />
       <Outlet />
       <Footer />
