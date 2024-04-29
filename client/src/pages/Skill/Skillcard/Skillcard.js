@@ -11,7 +11,7 @@ export default function Skillcard({ datas }) {
           alt=""
         />
       </figure>
-      <h1 className="pt-1 text-xl font-extrabold  ">{datas.name}</h1>
+      <h1 className="pt-1 text-md font-extrabold  ">{datas.name}</h1>
     </div>
   );
 }
