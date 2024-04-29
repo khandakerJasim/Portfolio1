@@ -92,7 +92,7 @@ export default function Navbar() {
           </ul>
           <div
             onClick={handleopen}
-            className="  md:hidden border absolute  left-2 top-3 text-xl  "
+            className="  md:hidden  absolute  left-2 top-3 text-xl  "
           >
             {open ? <FaTimes /> : <FaBars />}
           </div>

@@ -22,7 +22,7 @@ export default function Skill() {
     {
       id: 3,
       image: react,
-      name: "React And Redux ",
+      name: "React js And Redux ",
     },
     {
       id: 4,

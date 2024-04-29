@@ -23,7 +23,7 @@ export default function Hero() {
             {" "}
             I'Am Fullstack Webdeveloper
           </h1>
-          <p className="sm:mt-3 mt-1  text-extabold md:w-[500px]">
+          <p className="sm:mt-2 mt-1  text-extabold md:w-[500px]">
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt,
             illum facere! Ducimus provident non praesentium aut culpa illo
             totam? Cupiditate, eius quidem! Harum perspiciatis itaque, ratione
