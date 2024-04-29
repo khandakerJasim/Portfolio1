@@ -32,7 +32,7 @@ export default function Message() {
   return (
     <div
       data-aos="fade-up"
-      className="fixed bottom-5 right-5 max-w-[1200px]  dark:text-white text-black md:right-[150px] "
+      className="fixed bottom-5 right-5 max-w-[1200px] text-gray-100  dark:text-white text-black md:right-[150px] "
     >
       {visible ? (
         <button onClick={() => gotobtn()}>

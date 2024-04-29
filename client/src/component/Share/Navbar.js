@@ -31,7 +31,7 @@ export default function Navbar() {
   return (
     <div
       className={`  
-      dark:bg-[#141E46]   sticky top-0 z-50  dark:text-white   max-w-[1200px] mx-auto ${
+      dark:bg-[#141E46]   sticky top-0 z-50  dark:text-white text-gray-100 bg-gray-800   max-w-[1200px] mx-auto ${
         Scroll ? "delay-200 duration-300 " : " text-black"
       } `}
     >

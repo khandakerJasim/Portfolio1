@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 
 export default function Footer() {
   return (
-    <div className="max-w-[1200px] mx-auto dark:bg-[#141E46]  text-white ">
+    <div className="max-w-[1200px] mx-auto bg-gray-800 dark:bg-[#141E46]  text-white ">
       <footer className="grid grid-cols-1 sm:grid-cols-2 pb-5 gap-2 py-10">
         <ul className=" gap-4 flex mx-10 text-lg font-semibold  ">
           <Link to="/">
@@ -65,7 +65,7 @@ export default function Footer() {
       <div className="border-t-2 mx-10 border-gray-200 px-10 pb-10  ">
         <h3 className="  gap-2 mx-auto text-center items-center py-2 space-x-2  ">
           Copyright © 2024 - All right reserved by
-          <span className="text-red-500 text-xl font-bold mt-2 ">
+          <span className="text-red-500 text-sm sm:text-xl font-bold mt-2 ">
             {" "}
             Joshim uddin
           </span>

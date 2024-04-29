@@ -25,7 +25,7 @@ export default function About() {
     Aos.init({ duration: 2000, easing: "ease-in-cubic", once: true });
   });
   return (
-    <div className="   max-w-[1200px] mx-auto  dark:text-white bg-gradient-to-r from-slate-900 to-slate-700  ">
+    <div className="   max-w-[1200px] mx-auto text-gray-100 dark:text-white bg-gradient-to-r from-slate-900 to-slate-700  ">
       <div className="md:flex  md:flex-row   flex-row-reverse py-10 items-center justify-between ">
         <div className="p-3 flex flex-col justify-center mx-auto">
           <p className="text-3xl font-bold">
@@ -48,7 +48,7 @@ export default function About() {
             repeat={Infinity}
             speed={50}
           />
-          <p className="md:w-[400px]  text-sm font-semi-extrabold mt-3 pr-2 ">
+          <p className="md:w-[400px]  text-md font-semi-extrabold mt-3 pr-2 ">
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat
             nobis facere incidunt debitis provident neque aspernatur aliquam
           </p>

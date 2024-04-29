@@ -41,7 +41,7 @@ export default function Skill() {
     },
   ];
   return (
-    <div className="max-w-[1200px] mx-auto dark:text-white bg-gradient-to-r from-slate-700 to-slate-800   ">
+    <div className="max-w-[1200px] mx-auto text-gray-100 dark:text-white bg-gradient-to-r from-slate-700 to-slate-800   ">
       <div className="py-10">
         <h1
           data-aos="fade-down"
