@@ -2,6 +2,7 @@ import React, { useState } from "react";
 // import { Link } from "react-router-dom";
 import { FaBars, FaTimes } from "react-icons/fa";
 import joshim from "./../../Assets/joshim.jpg";
+import cv from "./../../Assets/jasim-Cv.pdf";
 
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
@@ -98,13 +99,15 @@ export default function Navbar() {
           </div>
         </div>
         <div>
-          <button
+          <a
+            href={cv}
+            download
             className=" bg-gradient-to-r
            from-[#FA7070] to-[#9A4444] text-md font-bold p-2 rounded-md shadow-md hover:bg-gradient-to-l
             from-[#9A4444] to-[#9A4444] cursor-pointer "
           >
             Download CV
-          </button>
+          </a>
         </div>
       </div>
 
