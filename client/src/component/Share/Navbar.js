@@ -42,7 +42,7 @@ export default function Navbar() {
             initial={{ opacity: 0, scale: 0.5 }}
             transition={{ duration: 0.5 }}
             animate={{ opacity: 1, scale: 1 }}
-            className="text-xl font-bold hidden  md:block text-[#FA7070]  "
+            className="text-xl font-bold hidden  md:block text-white  "
           >
             Jasim uddin
           </motion.span>

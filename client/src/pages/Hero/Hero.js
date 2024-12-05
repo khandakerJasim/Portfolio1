@@ -19,7 +19,7 @@ export default function Hero() {
           <h1 className="text-3xl  w-[180px] uppercase font-extrabold relative before:absolute before:block before:left-0 before:top-9 before:h-[3px] before:w-full before:bg-red-500 before:scale-x-0 before:hover:scale-x-100 before:transition before:duration-300 before:ease-in-out before:origin-top-middle before:content-[' '] ">
             about me
           </h1>
-          <h1 className="mt-2 text-xl font-bold text-[#F16C6C] ">
+          <h1 className="mt-2 text-xl font-bold text-white ">
             {" "}
             I'Am Fullstack Webdeveloper
           </h1>
