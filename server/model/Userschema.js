@@ -9,21 +9,16 @@ const Userschema = new mongoose.Schema(
       type: String,
       required: true,
     },
-    username: {
-      type: String,
-      required: true,
-    },
+
     email: {
       type: String,
       required: true,
       unique: true,
-      validate(value) {
-        if (!validator.isEmail(value)) {
-          throw new error("email is not validate");
-        }
+      validate: function () {
+        return validator.validate(this.email);
       },
     },
-    mobile: {
+    phone: {
       type: String,
       required: true,
     },
@@ -42,6 +37,6 @@ const Userschema = new mongoose.Schema(
 
 //create model
 
-const Users = new mongoose.model("user", Userschema);
+const Users = new mongoose.model("contact1", Userschema);
 
 module.exports = Users;

@@ -1,12 +1,8 @@
 const Users = require("./../model/Userschema");
 
 exports.register = async (req, res) => {
-  const { name, username, email, mobile, message } = req.body;
+  const { name, email, phone, message } = req.body;
   console.log(req.body);
-
-  // if (!Name || !username || !email || !mobile || !message) {
-  //   res.status(400).json({ message: "all input are rewuires" });
-  // }
 
   try {
     const preuser = await Users.fineOne({ email: email });
@@ -14,15 +10,14 @@ exports.register = async (req, res) => {
     if (preuser) {
       res.status(400).json({ message: "the user is already exits" });
     } else {
-      const newuser = new Users({
+      const newuser = await Users({
         name: name,
-        username: username,
         email: email,
-        mobile: mobile,
+        phone: phone,
         message: message,
       });
-      await newuser.save();
-      res.status(200).json(newuser);
+      const saveuser = await newuser.save();
+      res.status(200).json({ status: 200, saveuser });
     }
   } catch (error) {
     res.status(400).json(error);
